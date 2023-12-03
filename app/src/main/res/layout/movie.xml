@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/personPadding">
+
+        <ImageView
+            android:id="@+id/ivImage"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/imageHeight"
+            tools:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            tools:text="Avengers" />
+
+        <ImageView
+            android:id="@+id/ivDelete"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/deleteHeight"
+            android:layout_gravity="center"
+            android:src="@drawable/delete"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

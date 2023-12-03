@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="personPadding">10dp</dimen>
+    <dimen name="imageHeight">60dp</dimen>
+    <dimen name="deleteHeight">30dp</dimen>
+    <dimen name="paddingEdit">10dp</dimen>
+    <dimen name="editHeight">300dp</dimen>
+    <dimen name="editSize">18sp</dimen>
+    <dimen name="marginTopEdit">20dp</dimen>
+</resources>

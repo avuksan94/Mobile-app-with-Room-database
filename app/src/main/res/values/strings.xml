@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MovieManager</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="date">Date:</string>
+    <string name="commit">Commit</string>
+    <string name="please_insert_value">Please insert value</string>
+    <string name="title">Title</string>
+    <string name="description">Description\n</string>
+    <string name="comment">Comment\n</string>
+    <string name="ManageMovies">Manage Movies</string>
+    <string name="MovieDetails">Movie Details</string>
+</resources>
